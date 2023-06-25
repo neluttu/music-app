@@ -4,9 +4,11 @@
 
 @layer utilities {
     #songs {
-    height: 500px;
-    overflow-y: hidden;
+    padding-right: 2px;
     overflow-x: hidden;
+    overflow-y:scroll;
+    height: 100%;
+    width: 103%;
     }
 
     #songs::-webkit-scrollbar {
