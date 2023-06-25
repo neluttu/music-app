@@ -37,7 +37,7 @@
         }
 
         #lists::-webkit-scrollbar-track {
-            background-color: #3c4352;
+            background-color: transparent;
             border-radius: 10px;
         }
     
@@ -47,10 +47,6 @@
         }
  
         .smallPlayer {
-            @apply absolute bottom-16 bg-[#141923]/95 w-full h-[70px] overflow-hidden transition-all duration-300 ease-in;
-        }
-
-        .bigPlayer {
-            @apply absolute bottom-16 bg-[#141923]/95 w-full h-full overflow-hidden;
+            @apply absolute bottom-16 bg-[#141923] w-full h-[70px] overflow-hidden transition-all duration-300 ease-in;
         }
 }
