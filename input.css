@@ -33,14 +33,24 @@
         width: 0em;
         height: 5px;
         margin-top: 4px;
+        border-radius: 50%;
         }
 
         #lists::-webkit-scrollbar-track {
             background-color: #3c4352;
+            border-radius: 10px;
         }
     
         #lists::-webkit-scrollbar-thumb {
             background-color: #252a34; 
+            border-radius: 10px;
         }
-    
+ 
+        .smallPlayer {
+            @apply absolute bottom-16 bg-[#141923]/95 w-full h-[70px] overflow-hidden transition-all duration-300 ease-in;
+        }
+
+        .bigPlayer {
+            @apply absolute bottom-16 bg-[#141923]/95 w-full h-full overflow-hidden;
+        }
 }
