@@ -22,4 +22,25 @@
     #songs::-webkit-scrollbar-thumb {
     background-color: #888; 
     }
+
+    #lists {
+        
+        overflow-x: scroll;
+        overflow-y:hidden;
+    }
+
+        #lists::-webkit-scrollbar {
+        width: 0em;
+        height: 5px;
+        margin-top: 4px;
+        }
+
+        #lists::-webkit-scrollbar-track {
+            background-color: #3c4352;
+        }
+    
+        #lists::-webkit-scrollbar-thumb {
+            background-color: #252a34; 
+        }
+    
 }
